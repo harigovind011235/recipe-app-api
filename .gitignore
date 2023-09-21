@@ -158,3 +158,20 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+# Ignore the .idea directory
+.idea/
+
+# Ignore .vs directory
+.vs/
+
+# Ignore .vscode directory (if it exists, as mentioned in your comment)
+.vscode/
+
+# Ignore .slnx.sqlite file
+.slnx.sqlite
+
+# Ignore specific files in the .vs/recipe-app-api/FileContentIndex directory
+.vs/recipe-app-api/FileContentIndex/*.vsidx
+
+# Ignore specific files in the .vs/recipe-app-api/v17 directory
+.vs/recipe-app-api/v17/.wsuo
